@@ -164,7 +164,7 @@ const reminderController = {
 			if (!id) {
 				throw new Error('id is required')
 			}
-			res.status(200).send('reminder updated successfully')
+			res.status(200).send('reminder successfully updated')
 		} catch (error) {
 			console.log(error)
 			res.json({
